@@ -6,8 +6,6 @@
   Malicord
 </h1>
 
-![](https://cdn.mos.cms.futurecdn.net/cQky3vgcKgB2hQgKLThUsn.jpg)
-
 <p align="center"> 
   <kbd>
 <img src="https://i.redd.it/9vfqb0o839o91.png" width="328"></img>
