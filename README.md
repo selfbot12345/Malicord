@@ -108,7 +108,11 @@
 
 
 > Extensions Stealed:
-Exodus, Metamask, Sollet, Trezor Password Manager, GAuth Authenticator, EOS Authenticator, Authy, Authenticator, EO.Finance, TronLink, Coinbase, Jaxx Liberty, Guarda, Math, Binance, Nifty, Yoroi, EQUAL, BitApp, iwallet, Wombat, MEW CX, Guild, Ronin, NeoLine, Clover, Liquality, Terra Station, Keplr, Coin98, ZilPay, Hycon Lite Client, Nash, Steem Keychain, BitClip, DAppPlay, Auro, Polymesh, ICONex, Nabox, KHC, Temple, TezBox, Cyano, Byone, OneKey, Leaf, Dashlane, NordPass, BitWarden
+Exodus, Metamask, Sollet, Trezor Password Manager, GAuth Authenticator, EOS Authenticator, Authy, 
+Authenticator, EO.Finance, TronLink, Coinbase, Jaxx Liberty, Guarda, Math, Binance, Nifty, Yoroi, 
+EQUAL, BitApp, iwallet, Wombat, MEW CX, Guild, Ronin, NeoLine, Clover, Liquality, Terra Station, 
+Keplr, Coin98, ZilPay, Hycon Lite Client, Nash, Steem Keychain, BitClip, DAppPlay, Auro, Polymesh, 
+ICONex, Nabox, KHC, Temple, TezBox, Cyano, Byone, OneKey, Leaf, Dashlane, NordPass, BitWarden
 
 > Wallets App:
 Zcash, Armory, ByteCoin, Ethereum, Jaxx, Atomic Wallet, Guarda, Coinomi
