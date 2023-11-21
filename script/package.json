@@ -54,7 +54,6 @@
     "sql.js": "^1.8.0",
     "sqlite3": "^5.1.6",
     "sudo-prompt": "^9.2.1",
-    "take-cam": "^3.2.0",
     "unidecode": "^0.1.8",
     "unzipper": "^0.10.14",
     "webpack": "^5.88.2",
