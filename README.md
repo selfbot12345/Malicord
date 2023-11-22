@@ -54,7 +54,7 @@
 
 ### ⚔️ 〢 Features
 
-🔮 = PREMIUM JOIN TELEGRAM
+🔮 = JOIN TELEGRAM
 
 ```diff
 > Default:
